@@ -1,8 +1,9 @@
 def test(**args):
     print(args)
 
+# 中文测试
+
 test(**{
     "a": 1,
-    "b": 2,
-    "C": 3
+    "b": 2
 })
